@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -66,7 +66,7 @@ header nav a:hover {
 .titulo {
     margin-top: 15%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao {
@@ -79,7 +79,7 @@ header nav a:hover {
     font-size: 12px;
 
     cursor: pointer;
-    transition: .4s ease all;
+    transition: .3s ease all;
 }
 
 .botao:hover {
@@ -88,7 +88,7 @@ header nav a:hover {
 }
 
 .botao i {
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .container {
@@ -100,8 +100,13 @@ header nav a:hover {
 }
 
 .box-filme {
+    padding-top: 5px;
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
 
